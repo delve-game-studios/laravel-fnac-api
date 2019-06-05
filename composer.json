@@ -1,0 +1,30 @@
+{
+    "name": "milan-vugrinchev/laravel-fnac-api",
+    "description": "This package is wrapper for php fNac sdk for laravel to automate all the configurations and make the sdk ready to use.",
+    "type": "library",
+    "keywords": ["fnac", "api", "sdk", "laravel", "laravel5", "php"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.5",
+        "milan-vugrinchev/fnacapiclient": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://www.github.com/milan-vugrinchev/fnacapiclient"
+        }
+    ],
+    "license": "MIT",
+    "authors": [    
+        {
+            "name": "Milan Vugrinchev",
+            "email": "milan.vugrinchev@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4": {
+            "Vugrinchev\\LaravelFnac\\": "src"
+        }
+    },
+    "minimum-stability": "stable"
+}
